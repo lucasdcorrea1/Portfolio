@@ -3,23 +3,42 @@ body {
     background-color: $Abstract-white-red-against-dark-background-3-hex
 }
 #menu_navbar {
-    background-color: $Abstract-white-red-against-dark-background-1-hsla;   
-    max-width: 20%;
+    background-color: $Abstract-white-red-against-dark-background-1-hsla;
+    position: fixed;
+    right: 80%;
+    width: 20%;
+    height: 100%;
+    top: 0;
     ul{
-        background: $Abstract-white-red-against-dark-background-2-hsla;
         position: relative;
-        padding: 8%;
-        right: 3%;
+        padding: 1%;
+        max-width: 86%;
+        left: 5%;
+        list-style-type: none;
+        border-radius: 4px;
+
         a {
             color: $Abstract-white-red-against-dark-background-4-hsla
-        
-        }
-        li{
-        
-            background-color: $Abstract-white-red-against-dark-background-4-hex
-        }&:hover{
-            color: $Abstract-white-red-against-dark-background-2-hsla
 
         }
-    } 
+        li{
+            background-color: $Abstract-white-red-against-dark-background-4-hex;
+            position: relative;
+            margin: 2%;
+            height: 40px;
+            border-radius: 4px;
+            box-shadow: -5px -10px 30px $Coral-Purple-1-rgba, 6px 9px 15px $Coral-Purple-3-rgba;
+            -webkit-box-shadow: -5px -10px 30px $Coral-Purple-1-rgba, 6px 9px 15px $Coral-Purple-3-rgba;
+            -moz-box-shadow: -5px -10px 30px $Coral-Purple-1-rgba, 6px 9px 15px $Coral-Purple-3-rgba;
+            a {
+                color: $Coral-Purple-5-hsla;
+                position: relative;
+                top: 25%;
+                left: 42%;
+            }
+        }&:hover{
+            color: $Abstract-white-red-against-dark-background-2-hsla;
+
+        }
+    }
 }

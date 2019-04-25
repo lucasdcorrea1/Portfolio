@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,iCAAiC;AAOjC,kCAAkC;AAOlC,kCAAkC",
+    "mappings": "AAAA,iCAAiC;AAOjC,kCAAkC;AAOlC,kCAAkC;AAOlC,iCAAiC;AAOjC,kCAAkC;AAOlC,kCAAkC",
     "sources": [
         "../scss/components/colors.scss"
     ],

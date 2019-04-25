@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,iCAAiC;AAOjC,kCAAkC;AAOlC,kCAAkC;AAOlC,iCAAiC;AAOjC,kCAAkC;AAOlC,kCAAkC;ADlClC,AAOQ,SAPC,CACL,SAAS,CAML,CAAC,CAAA;EACG,SAAS,EAAE,IAAI;EACf,QAAQ,EAAE,QAAQ;CAErB",
+    "sources": [
+        "../scss/components/header.scss",
+        "../scss/components/colors.scss"
+    ],
+    "names": [],
+    "file": "header.css"
+}

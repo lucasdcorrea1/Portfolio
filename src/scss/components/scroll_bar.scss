@@ -1,0 +1,31 @@
+@import 'colors.scss';
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+/*
+ *  STYLE 7
+ */
+
+ html::-webkit-scrollbar-track
+ {
+     background-color:transparent;
+     border-radius: 10px;
+ }
+ 
+ html::-webkit-scrollbar
+ {
+     width: 10px;
+     background-color: transparent;
+ }
+ 
+ html::-webkit-scrollbar-thumb
+ {
+     border-radius: 10px;
+     background-image: -webkit-gradient(linear,
+                                        left bottom,
+                                        left top,
+                                        color-stop(0.44, $Coral-Purple-5-hsla), 
+                                        color-stop(0.72, $Coral-Purple-3-hsla), 
+                                        color-stop(0.86, $Coral-Purple-2-hsla));
+ }

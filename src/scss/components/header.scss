@@ -1,15 +1,29 @@
 @import 'colors.scss';
 .head_top {
+    position: relative;
+    left: 19.98%;
     .img_head{
-        // font-size: 30px;
-        // position: relative;
-        // height: 50%;
-        // left: 60%;
-        // right: 40%;
+        position: relative;
+        max-width: 82%;
+        top: -8px;    
         a{
             font-size: 30px;
             position: relative;
 
         }
     }
+    a {
+        color: $Up---Down-3-hex !important;
+    }
+
 }
+@media screen and (max-width: 850px) {
+    .head_top {
+    .img_head {
+        position: relative;
+        max-width: 100%;
+        left: 0%;
+        top: 0px;    
+    }
+}
+  }

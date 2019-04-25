@@ -4,8 +4,38 @@
 /* Color Theme Swatches in Hex */
 /* Color Theme Swatches in RGBA */
 /* Color Theme Swatches in HSLA */
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in HSLA */
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in HSLA */
+.head_top {
+  position: relative;
+  left: 19.98%;
+}
+
+.head_top .img_head {
+  position: relative;
+  max-width: 82%;
+  top: -8px;
+}
+
 .head_top .img_head a {
   font-size: 30px;
   position: relative;
+}
+
+.head_top a {
+  color: #A6A6A6 !important;
+}
+
+@media screen and (max-width: 850px) {
+  .head_top .img_head {
+    position: relative;
+    max-width: 100%;
+    left: 0%;
+    top: 0px;
+  }
 }
 /*# sourceMappingURL=header.css.map */

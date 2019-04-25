@@ -1,0 +1,35 @@
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in HSLA */
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in HSLA */
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in HSLA */
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in HSLA */
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/*
+ *  STYLE 7
+ */
+html::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, #38002d), color-stop(0.72, #7e1b35), color-stop(0.86, #c20034));
+}
+/*# sourceMappingURL=scroll_bar.css.map */
